@@ -2,12 +2,12 @@ package com.pluralsight;
 
 public class DoWhileLoop {
     public static void main(String[] args) {
-        int count = 0;
+        int i = 0;
 
         do{
-            count ++;
+            i ++; //increase i by 1
             System.out.println("I love java");
-        } while (count <= 5);
+        } while (i <= 5); //checks condition after loop
 
     }
 }
